@@ -1,15 +1,17 @@
 package xyz_bank.home_page;
 
-import xyz_bank.model.User;
-import xyz_bank.util.Waitings;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
+import xyz_bank.model.User;
+import xyz_bank.util.Waitings;
 
 public class ManagerLoginPage extends HomePage {
 
     private static final String HOME_PAGE_URL = "https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login";
+    private final Logger logger = LogManager.getRootLogger();
 
     public ManagerLoginPage(WebDriver driver) {
         super(driver);
@@ -101,6 +103,7 @@ public class ManagerLoginPage extends HomePage {
         postCode.sendKeys(user.userPostCode);
         addCustomerButton.click();
         driver.switchTo( ).alert( ).accept();
+        logger.info("A new customer is added");
         return this;
     }
 
