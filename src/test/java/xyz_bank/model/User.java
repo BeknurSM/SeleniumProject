@@ -6,7 +6,7 @@ public class User {
     public String userLastName;
     public String userPostCode;
 
-    public User(String userFirstName, String userLastName, String userPostCode){
+    public User(String userFirstName, String userLastName, String userPostCode) {
         this.userFirstName = userFirstName;
         this.userLastName = userLastName;
         this.userPostCode = userPostCode;

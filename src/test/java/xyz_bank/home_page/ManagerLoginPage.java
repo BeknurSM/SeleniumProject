@@ -96,7 +96,7 @@ public class ManagerLoginPage extends HomePage {
         return this;
     }
 
-    public ManagerLoginPage addCustomer(User user){
+    public ManagerLoginPage addCustomer(User user) {
         Waitings.waitForElementToBeClickable(firstName, driver);
         firstName.sendKeys(user.userFirstName);
         lastName.sendKeys(user.userLastName);

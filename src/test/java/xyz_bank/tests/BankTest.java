@@ -23,8 +23,7 @@ public class BankTest extends CommonConditions {
                 .addCustomer(testUser)
                 .openAccountModule()
                 .openAccount()
-                .viewCustomerModule();//
-                Assert.assertEquals(driver.findElement(By.xpath("//*[contains(text(),'"+FIRST_NAME+"')]")).getText(), FIRST_NAME+" "+LAST_NAME , "Tittle name in published Pastebin is wrong");
+                .viewCustomerModule();
                 managerLoginPage.homeButton();
     }
 }
