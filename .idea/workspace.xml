@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f47b4305-1062-4633-a0cd-6cd1de2cf7d5" name="Changes" comment="push#2">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/xyz_bank/home_page/ManagerLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xyz_bank/home_page/ManagerLoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/xyz_bank/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xyz_bank/model/User.java" afterDir="false" />
+    <list default="true" id="f47b4305-1062-4633-a0cd-6cd1de2cf7d5" name="Changes" comment="push#3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/xyz_bank/driver/DriverSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xyz_bank/driver/DriverSingleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/xyz_bank/tests/BankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xyz_bank/tests/BankTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,13 +37,17 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Projects/java/SeleniumProject/src/test"
+    "last_opened_file_path": "D:/Projects/java/SeleniumProject/src/test/resources"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\java\SeleniumProject\src\test\resources" />
       <recent name="D:\Projects\java\SeleniumProject\src\test" />
       <recent name="D:\Projects\java\SeleniumProject\src\test\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\java\SeleniumProject\src\test\resources" />
     </key>
   </component>
   <component name="RunManager">
@@ -88,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673201861499</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="push#3">
+      <created>1673260847230</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673260847230</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,6 +114,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="push#2" />
-    <option name="LAST_COMMIT_MESSAGE" value="push#2" />
+    <MESSAGE value="push#3" />
+    <option name="LAST_COMMIT_MESSAGE" value="push#3" />
   </component>
 </project>

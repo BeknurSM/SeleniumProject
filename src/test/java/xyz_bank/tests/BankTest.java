@@ -9,9 +9,6 @@ import xyz_bank.service.UserCreator;
 
 public class BankTest extends CommonConditions {
 
-    private static String FIRST_NAME = "Beknur";
-    private static String LAST_NAME = "Smagulov";
-
     @Test (description = "opens the manager's login page and creates a new user")
     public void managerLoginPageTest()
     {
