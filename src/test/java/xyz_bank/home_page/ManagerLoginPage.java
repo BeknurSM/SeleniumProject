@@ -52,7 +52,7 @@ public class ManagerLoginPage extends HomePage {
     @FindBy(xpath = "//*[@id='currency']")
     public WebElement currencyDropdownList;
 
-    @FindBy(xpath = "//*[@id=\"currency\"]/option[2]")
+    @FindBy(xpath = "//*[@id='currency']/option[2]")
     public WebElement currencyDropdownListSelection;
 
     @FindBy(xpath = "//button[@type='submit']")
@@ -96,7 +96,7 @@ public class ManagerLoginPage extends HomePage {
         return this;
     }
 
-    public ManagerLoginPage addCustomer(User user) {
+    public ManagerLoginPage addCustomer(User user)  {
         Waitings.waitForElementToBeClickable(firstName, driver);
         firstName.sendKeys(user.userFirstName);
         lastName.sendKeys(user.userLastName);

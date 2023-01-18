@@ -17,7 +17,7 @@ import java.util.Date;
 
 
 public class TestListener implements ITestListener {
-    private Logger log = LogManager.getRootLogger();
+    private Logger log = LogManager.getRootLogger(); //add loggerss
 
     public void onTestStart(ITestResult ITestResult) {
     }
