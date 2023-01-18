@@ -8,7 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import xyz_bank.model.User;
 import xyz_bank.util.Waitings;
 
-public class ManagerLoginPage extends HomePage {
+public class ManagerLoginPage extends AbstractPage {
 
     private static final String HOME_PAGE_URL = "https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login";
     private final Logger logger = LogManager.getRootLogger();
@@ -16,7 +16,7 @@ public class ManagerLoginPage extends HomePage {
     public ManagerLoginPage(WebDriver driver) {
         super(driver);
     }
-    @FindBy (xpath = "(//button[@class = 'btn btn-primary btn-lg'])[2]")
+    @FindBy (css = "div:nth-child(3) > button")
     private WebElement managerLogin;
 
     @FindBy(xpath = "//button[@ng-class='btnClass1']")
@@ -37,10 +37,10 @@ public class ManagerLoginPage extends HomePage {
     @FindBy(xpath = "//input[@placeholder = 'Post Code']")
     private WebElement postCode;
 
-    @FindBy(xpath = "//button[@class='btn btn-default']")
+    @FindBy(css = "form > button")
     private WebElement addCustomerButton;
 
-    @FindBy (xpath = "//button[@class='btn home']")
+    @FindBy (css = "button.btn.home")
     private WebElement homeButton;
 
     @FindBy(xpath = "//select[@id='userSelect']")

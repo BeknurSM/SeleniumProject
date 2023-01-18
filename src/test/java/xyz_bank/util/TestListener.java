@@ -17,22 +17,15 @@ import java.util.Date;
 
 
 public class TestListener implements ITestListener {
-    private Logger log = LogManager.getRootLogger(); //add loggerss
+    private Logger log = LogManager.getRootLogger();
 
-    public void onTestStart(ITestResult ITestResult) {
-    }
-    public void onTestSuccess(ITestResult ITestResult) {
-    }
-    public void onTestFailure(ITestResult ITestResult) { saveScreenshot();
-    }
-    public void onTestSkipped(ITestResult ITestResult) {
-    }
-    public void onTestFailedButWithinSuccessPercentage(ITestResult ITestResult) {
-    }
-    public void onStart(ITestContext ITestContext) {
-    }
-    public void onFinish(ITestContext ITestContext) {
-    }
+    public void onTestStart(ITestResult ITestResult) { log.info("Test started"); }
+    public void onTestSuccess(ITestResult ITestResult) { log.info("Test passed"); }
+    public void onTestFailure(ITestResult ITestResult) { log.info("Test failed"); saveScreenshot(); }
+    public void onTestSkipped(ITestResult ITestResult) { log.info("Test skipped"); }
+    public void onTestFailedButWithinSuccessPercentage(ITestResult ITestResult) { log.info("Test passed partly"); }
+    public void onStart(ITestContext ITestContext) { log.info("Tests started"); }
+    public void onFinish(ITestContext ITestContext) { log.info("Tests finished"); }
 
     private void saveScreenshot() {
             Date currentDate = new Date();
