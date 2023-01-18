@@ -8,6 +8,8 @@ import org.openqa.selenium.support.FindBy;
 import xyz_bank.model.User;
 import xyz_bank.util.Waitings;
 
+import static xyz_bank.util.Utils.getTextFromElementByXPath;
+
 public class ManagerLoginPage extends AbstractPage {
 
     private static final String HOME_PAGE_URL = "https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login";
@@ -112,5 +114,11 @@ public class ManagerLoginPage extends AbstractPage {
     {
         driver.navigate().to(HOME_PAGE_URL);
         return this;
+    }
+    public String TITLE_NAME_SELECTOR = "//*[contains(text(),'" + User.userFirstName + "')]";
+
+
+    public String getUserName(WebDriver driver) {
+        return getTextFromElementByXPath(TITLE_NAME_SELECTOR, driver);
     }
 }

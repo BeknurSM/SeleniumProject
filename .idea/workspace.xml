@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f47b4305-1062-4633-a0cd-6cd1de2cf7d5" name="Changes" comment="push#5">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.xml" afterDir="false" />
+    <list default="true" id="f47b4305-1062-4633-a0cd-6cd1de2cf7d5" name="Changes" comment="push#6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/xyz_bank/home_page/AbstractPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xyz_bank/home_page/AbstractPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/xyz_bank/home_page/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xyz_bank/home_page/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/xyz_bank/home_page/ManagerLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xyz_bank/home_page/ManagerLoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/xyz_bank/util/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xyz_bank/util/TestListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/xyz_bank/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xyz_bank/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/xyz_bank/tests/BankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xyz_bank/tests/BankTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/xyz_bank/util/Waitings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xyz_bank/util/Waitings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +39,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Projects/java/SeleniumProject/target"
+    "last_opened_file_path": "D:/Projects/java/SeleniumTasks"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -54,6 +51,9 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\java\SeleniumProject\src\test\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="xyz_bank.util" />
     </key>
   </component>
   <component name="RunManager">
@@ -118,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674042930451</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="push#6">
+      <created>1674050957317</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674050957317</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,6 +144,7 @@
     <MESSAGE value="push#3" />
     <MESSAGE value="push#4" />
     <MESSAGE value="push#5" />
-    <option name="LAST_COMMIT_MESSAGE" value="push#5" />
+    <MESSAGE value="push#6" />
+    <option name="LAST_COMMIT_MESSAGE" value="push#6" />
   </component>
 </project>

@@ -2,7 +2,7 @@ package xyz_bank.model;
 
 public class User {
 
-    public String userFirstName;
+    public static String userFirstName;
     public String userLastName;
     public String userPostCode;
 
