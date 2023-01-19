@@ -32,16 +32,4 @@ public class User {
                 ", userPostCode='" + userPostCode + '\'' +
                 '}';
     }
-//
-//    @Override
-//    public boolean equals(Object o){
-//        if(this == o) return true;
-//        if (!(o instanceof User)) return false;
-//        User user = (User) o;
-//        return Object.equals(getUserFirstName(), user.getUserFirstName()) &&
-//                Object.equals(getUserLastName(), user.getUserLastName()) &&
-//                Object.equals(getUserPostCode(), user.getUserPostCode());
-//    }
-//    @Override
-//    public int hashCode() { return Object.hash(getUserFirstName(), getUserLastName(), getUserPostCode()); }
 }

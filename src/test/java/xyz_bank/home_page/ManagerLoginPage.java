@@ -13,6 +13,8 @@ import static xyz_bank.util.Utils.getTextFromElementByXPath;
 public class ManagerLoginPage extends AbstractPage {
 
     private static final String HOME_PAGE_URL = "https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login";
+
+    public String TITLE_NAME_SELECTOR = "//*[contains(text(),'" + User.userFirstName + "')]";
     private final Logger logger = LogManager.getRootLogger();
 
     public ManagerLoginPage(WebDriver driver) {
@@ -109,16 +111,15 @@ public class ManagerLoginPage extends AbstractPage {
         return this;
     }
 
+    public String getUserName(WebDriver driver) {
+        return getTextFromElementByXPath(TITLE_NAME_SELECTOR, driver);
+    }
+
     @Override
     public ManagerLoginPage openPage()
     {
         driver.navigate().to(HOME_PAGE_URL);
         return this;
     }
-    public String TITLE_NAME_SELECTOR = "//*[contains(text(),'" + User.userFirstName + "')]";
 
-
-    public String getUserName(WebDriver driver) {
-        return getTextFromElementByXPath(TITLE_NAME_SELECTOR, driver);
-    }
 }

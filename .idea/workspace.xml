@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f47b4305-1062-4633-a0cd-6cd1de2cf7d5" name="Changes" comment="push#6">
+    <list default="true" id="f47b4305-1062-4633-a0cd-6cd1de2cf7d5" name="Changes" comment="push#7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/xyz_bank/home_page/HomePage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/xyz_bank/home_page/ManagerLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xyz_bank/home_page/ManagerLoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/xyz_bank/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xyz_bank/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/xyz_bank/tests/BankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xyz_bank/tests/BankTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/xyz_bank/util/Waitings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xyz_bank/util/Waitings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674050957317</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="push#7">
+      <created>1674067055844</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674067055844</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,6 +153,7 @@
     <MESSAGE value="push#4" />
     <MESSAGE value="push#5" />
     <MESSAGE value="push#6" />
-    <option name="LAST_COMMIT_MESSAGE" value="push#6" />
+    <MESSAGE value="push#7" />
+    <option name="LAST_COMMIT_MESSAGE" value="push#7" />
   </component>
 </project>
